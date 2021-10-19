@@ -1,0 +1,10 @@
+{
+  "name": "MarsRoverChallenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gayan Madurapperuma",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.2.0"
+  }
+}
