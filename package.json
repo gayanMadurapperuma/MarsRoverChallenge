@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Gayan Madurapperuma",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "start:default": "node index.js --input '5 5' '1 2 N' 'LMLMLMLMM' '3 3 E' 'MMRMMRMRRM'"
+  },
   "dependencies": {
     "command-line-args": "^5.2.0"
   }

@@ -25,7 +25,7 @@ const cordination = (currentPosition, instructions, maxCordinate) => {
     }
     const directions = ['N', 'E', 'S', 'W'];
     if(currentPosition.length > 3){
-        return console.log('position cordination incorrect');
+        return console.log('Rover position cordination incorrect');
     }
     let heading = currentPosition[2];
     let cordination = [parseInt(currentPosition[0]), parseInt(currentPosition[1])];
@@ -43,6 +43,7 @@ const cordination = (currentPosition, instructions, maxCordinate) => {
             case 'M': {
                 const [xAxis, yAxis] = cordinationCalculation[heading];
                 cordination = [cordination[0] + xAxis, cordination[1] + yAxis]
+                break;
             }
         }
         i++;
