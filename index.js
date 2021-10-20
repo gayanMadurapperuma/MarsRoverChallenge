@@ -24,8 +24,8 @@ const cordination = (currentPosition, instructions, maxCordinate) => {
         W: [-1, 0]
     }
     const directions = ['N', 'E', 'S', 'W'];
-    if(currentPosition.length > 3){
-        return console.log('Rover position cordination incorrect');
+    if(currentPosition.length !== 3){
+        return 'Rover position cordination incorrect';
     }
     let heading = currentPosition[2];
     let cordination = [parseInt(currentPosition[0]), parseInt(currentPosition[1])];
